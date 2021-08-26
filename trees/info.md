@@ -1,0 +1,20 @@
+## Trees
+
+Un Binary Search Tree básicamente costa de un elemento root (El elemento padre del que todos descienden). Es a partir de ese elemento en donde se empieza la búsqueda.
+
+
+La condición es simple, un elemento únicamente puede tener dos descendientes, no más. Los descendientes que son mayores que el elemento padre se colocan del lado derecho y los descendientes que son menores se colocan del lado izquierdo, simple, ¿verdad?
+
+Para buscar en un Binary Search Tree simplemente tienes que preguntarte: ¿Este elemento es mayor o menor que el que estoy buscando? Ohh es mayor, entonces me voy para la izquierda, y así sucesivamente hasta que encuentres el elemento que estabas buscando.
+
+### Methods
+
+- search: Buscar un nodo
+- insert: Insertar un nodo
+- delete: Borrar un nodo
+
+```
+   10
+ 4    20
+2 8 17 170
+```
